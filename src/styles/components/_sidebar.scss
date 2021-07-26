@@ -1,0 +1,33 @@
+.w3-sidebar {
+    z-index: 3;
+    width: 300px;
+
+    img {
+        width: 100%;
+    }
+
+    .social-icons {
+        display: flex;
+        width: 100%;
+
+        a {
+            display: flex;
+            margin: 0 6px;
+            text-decoration: none;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.w3-main {
+    @media(min-width: 768px) {
+        margin-left: 300px;
+    }
+}
