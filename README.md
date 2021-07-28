@@ -25,9 +25,9 @@
 
 2. Copy all file contents of your `build` folder and temporarily copy to another folder (temp).
 
-3. Switch from your `main` branch to `hbcu-tech-journeys-site` branch.
+3. Switch from your `main` branch to `hbcu-tech-journeys-website` branch.
 > git checkout hbcu-tech-journeys-site
 
-4. Copy the contents of your `temp` folder into the repository `hbcu-tech-journeys-site`.
+4. Copy the contents of your `temp` folder into the repository `hbcu-tech-journeys-website`.
 
 5. Commit and push the copied contents up to the repository.
