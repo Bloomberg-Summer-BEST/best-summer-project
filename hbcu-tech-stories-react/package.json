@@ -1,7 +1,7 @@
 {
-  "name": "Summer BEST Project",
-  "version": "1.0.0",
-  "description": "",
+  "name": "summer-best-project",
+  "version": "1.0.1",
+  "description": "Summer BEST Project",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
