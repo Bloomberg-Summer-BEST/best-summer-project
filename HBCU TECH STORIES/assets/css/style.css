@@ -31,6 +31,22 @@
 .row1-desc{
   padding: 0 2px;
 }
+.school-logo{
+  width: 60%;
+  padding: 5% 0;
+  margin-left: 20%;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.title{
+  text-align: center;
+}
 
 #home{
   padding-top: 30px;
