@@ -1,4 +1,4 @@
-<!-- COMMUNITY/BLOG PAGE -->
+<!-- COMMUNITY PAGE -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>COMMUNITY</title>
+    <title>Community</title>
 </head>
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">
@@ -32,15 +32,13 @@
                     class="fa fa-users fa-fw w3-margin-right"></i>COMMUNITY</a>
             <a href="connections.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
                     class="fa fa-envelope fa-fw w3-margin-right"></i>CONNECTIONS</a>
+
+            <!-- Sign Out Button -->
+            <div class="w3-animate-left w3-container">
+                <button style="font-size:24px; color: blue;">Sign Out <i class="fa fa-sign-out"></i></button>
+            </div>
         </div>
-        <div class="w3-panel w3-large">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </div>
+
         <br><br><br>
         <!-- Close Button -->
         <!-- <button class="w3-bar-item w3-button w3-hide-small w3-center" onclick="w3_close()">Close &times;</button> -->
@@ -49,22 +47,29 @@
 
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
-        title="close side menu" id="myOverlay"></div>
+        title="close side menu" id="myOverlay">
+    </div>
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px">
 
         <!-- Header -->
         <header id="home">
-            <a href="#"><img src="assets/images/techlogo.png" style="width:65px;"
-                    class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
-                    class="fa fa-bars"></i></span>
+            <a href="#"><img src="techlogo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
             <div class="w3-container">
                 <h1><b>COMMUNITY</b></h1>
+                <div class="w3-container" style="background-color: white;">
+                    <p>
+                        Our member-led communities make HBCU Tech Journeys strong. 
+                        They serve as an army of influencers and ambassadors helping students shape their future in the tech industry as well as their own businesses and careers. 
+                        Join as many as you’d like to network with peers, open doors to new partnerships and contribute your ideas to shape the future of the technology industry. 
+                        There’s a place for everyone, and everyone's story matters!
+                    </p>
+                </div>
                 <div class="w3-section w3-bottombar w3-padding-16">
                     <span class="w3-margin-right">Category:</span>
-                    <button class="w3-button w3-black">ALL</button>
+                    <button class="w3-button w3-black">All Communities</button>
                     <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i> My Groups </button>
                     <button class="w3-button w3-white w3-hide-small"><i class="fa fa-users"></i> Bookmarks </button>
                 </div>
@@ -80,184 +85,222 @@
                 <div class="w3-container w3-white">
                     <p style="color: blue;"><b>The Hornets</b></p>
                     <p class="title"><b>Alabama State University Students and Alumni</b></p>
-                    <p>With your Alabama State University Degree, the possibilities are endless. Want to here from
-                        current and former ASU students - where they are and where they are going, join our group!</p>
+                    <p>With your Alabama State University Degree, the possibilities are endless. Want to here from current and former ASU students - where they are and where they are going, join our group!</p>
                     <p><button class="button">Join Group</button></p>
                 </div>
             </div>
-
+            
             <div class="w3-third w3-container w3-margin-bottom card">
                 <img src="assets/images/image10.jpg" alt="The Fisk Buldogs" class="w3-hover-opacity image">
                 <div class="w3-container w3-white">
                     <p style="color: blue;"><b>The Fisk Buldogs</b></p>
                     <p class="title"><b>Fisk University Students and Alumni</b></p>
-                    <p>With your Fisk University Degree, the possibilities are endless. Want to here from current and
-                        former Fisk University students - where they are and where they are going, join our group!</p>
+                    <p>With your Fisk University Degree, the possibilities are endless. Want to here from current and former Fisk University students - where they are and where they are going, join our group!</p>
                     <p><button class="button">Join Group</button></p>
                 </div>
             </div>
-
+            
             <div class="w3-third w3-container w3-margin-bottom card">
                 <img src="assets/images/image11.jpg" alt="The Fisk Buldogs" class="w3-hover-opacity image">
                 <div class="w3-container w3-white">
                     <p style="color: blue;"><b>The Fisk Buldogs</b></p>
                     <p class="title"><b>Fisk University Students and Alumni</b></p>
-                    <p>With your Howard University Degree, the possibilities are endless. Want to here from current and
-                        former Howard students - where they are and where they are going, join our group!</p>
+                    <p>With your Howard University Degree, the possibilities are endless. Want to here from current and former Howard students - where they are and where they are going, join our group!</p>
                     <p><button class="button">Join Group</button></p>
                 </div>
             </div>
 
-            <!-- First Community Grid -->
-            <div class="w3-row-padding">
-                <div class="w3-third w3-container w3-margin-bottom card">
-                    <img src="assets/images/image12.jpg" alt="The Hornets" class="w3-hover-opacity image">
-                    <div class="w3-container w3-white">
-                        <p style="color: blue;"><b>The Hornets</b></p>
-                        <p class="title"><b>Alabama State University Students and Alumni</b></p>
-                        <p>With your Alabama State University Degree, the possibilities are endless. Want to here from
-                            current and former ASU students - where they are and where they are going, join our group!
-                        </p>
-                        <p><button class="button">Join Group</button></p>
-                    </div>
-                </div>
-
-                <div class="w3-third w3-container w3-margin-bottom card">
-                    <img src="assets/images/image4.jpg" alt="The Fisk Buldogs" class="w3-hover-opacity image">
-                    <div class="w3-container w3-white">
-                        <p style="color: blue;"><b>The Fisk Buldogs</b></p>
-                        <p class="title"><b>Fisk University Students and Alumni</b></p>
-                        <p>With your Fisk University Degree, the possibilities are endless. Want to here from current
-                            and former Fisk University students - where they are and where they are going, join our
-                            group!</p>
-                        <p><button class="button">Join Group</button></p>
-                    </div>
-                </div>
-
-                <div class="w3-third w3-container w3-margin-bottom card">
-                    <img src="assets/images/image7.jpg" alt="The Howard Bison" class="w3-hover-opacity image">
-                    <div class="w3-container w3-white">
-                        <p style="color: blue;"><b>The Howard Bison</b></p>
-                        <p class="title"><b>Howard University Students and Alumni</b></p>
-                        <p>With your Howard University Degree, the possibilities are endless. Want to here from current
-                            and former Howard students - where they are and where they are going, join our group!</p>
-                        <p><button class="button">Join Group</button></p>
-                    </div>
+        <!-- Second Community Grid -->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom card">
+                <img src="assets/images/image8.jpg" alt="Software Engineering" class="w3-hover-opacity image">
+                <div class="w3-container w3-white">
+                    <p style="color: blue;"><b>Software Engineering</b></p>
+                    <p class="title"><b>All about Software Engineering</b></p>
+                    <p>
+                        Want to here from your peers in Software Engineering, what to network and connect with real
+                        world Software Engineer.
+                        We welcome you onboard!
+                    </p>
+                    <p><button class="button">Join Group</button></p>
                 </div>
             </div>
 
-            <!-- Second Community Grid -->
-            <div class="w3-row-padding">
-                <div class="w3-third w3-container w3-margin-bottom card">
-                    <img src="assets/images/image8.jpg" alt="Software Engineering" class="w3-hover-opacity image">
-                    <div class="w3-container w3-white">
-                        <p style="color: blue;"><b>Software Engineering</b></p>
-                        <p class="title"><b>All about Software Engineering</b></p>
-                        <p>
-                            Want to here from your peers in Software Engineering, what to network and connect with real
-                            world Software Engineer.
-                            We welcome you onboard!
-                        </p>
-                        <p><button class="button">Join Group</button></p>
-                    </div>
-                </div>
-
-                <div class="w3-third w3-container w3-margin-bottom card">
-                    <img src="assets/images/image5.jpg" alt="Web Development" class="w3-hover-opacity image">
-                    <div class="w3-container w3-white">
-                        <p style="color: blue;"><b>Web Development</b></p>
-                        <p class="title"><b>All about Web Development</b></p>
-                        <p>
-                            Collaborate, Ideate, and network with your peers in web Development.
-                        </p>
-                        <p><button class="button">Join Group</button></p>
-                    </div>
-                </div>
-
-                <div class="w3-third w3-container w3-margin-bottom card">
-                    <img src="assets/images/image9.jpg" alt="Premed Students" class="w3-hover-opacity image">
-                    <div class="w3-container w3-white">
-                        <p style="color: blue;"><b>Premed Students</b></p>
-                        <p class="title"><b>Journey into medical school.</b></p>
-                        <p>
-                            What can you do with your premed degree - here from your fellow friends and peers on how
-                            they
-                            overcame great challenges to be where thet are now!
-                        </p>
-                        <p><button class="button">Join Group</button></p>
-                    </div>
+            <div class="w3-third w3-container w3-margin-bottom card">
+                <img src="assets/images/image5.jpg" alt="Web Development" class="w3-hover-opacity image">
+                <div class="w3-container w3-white">
+                    <p style="color: blue;"><b>Web Development</b></p>
+                    <p class="title"><b>All about Web Development</b></p>
+                    <p>
+                        Collaborate, Ideate, and network with your peers in web Development.
+                        Collaborate, Ideate, and network with your peers in web Development. 
+                        Collaborate, Ideate, and network with your peers in web Development.
+                    </p>
+                    <p><button class="button">Join Group</button></p>
                 </div>
             </div>
 
-            <!-- Pagination -->
-            <div class="w3-center w3-padding-32">
-                <div class="w3-bar">
-                    <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-                    <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            <div class="w3-third w3-container w3-margin-bottom card">
+                <img src="assets/images/image9.jpg" alt="Premed Students" class="w3-hover-opacity image">
+                <div class="w3-container w3-white">
+                    <p style="color: blue;"><b>Premed Students</b></p>
+                    <p class="title"><b>Journey into medical school.</b></p>
+                    <p>
+                        What can you do with your premed degree - here from your fellow friends and peers on how
+                        they
+                        overcame great challenges to be where thet are now!
+                    </p>
+                    <p><button class="button">Join Group</button></p>
                 </div>
             </div>
-
-            <!-- Footer -->
-            <footer class="w3-container w3-padding-32 w3-dark-grey">
-                <div class="w3-row-padding">
-                    <div class="w3-third">
-                        <h3>FOOTER</h3>
-                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
-                            ultricies congue gravida diam non fringilla.</p>
-                        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-                        </p>
-                    </div>
-
-                    <div class="w3-third">
-                        <h3>BLOG POSTS</h3>
-                        <ul class="w3-ul w3-hoverable">
-                            <li class="w3-padding-16">
-                                <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-                                <span class="w3-large">Lorem</span><br>
-                                <span>Sed mattis nunc</span>
-                            </li>
-                            <li class="w3-padding-16">
-                                <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-                                <span class="w3-large">Ipsum</span><br>
-                                <span>Praes tinci sed</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="w3-third">
-                        <h3>POPULAR TAGS</h3>
-                        <p>
-                            <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
-                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
-                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
-                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
-                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span
-                                class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
-                        </p>
-                    </div>
-
-                </div>
-            </footer>
-
-            <div class="w3-black w3-center w3-padding-24">Powered by <a
-                    href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
-                    class="w3-hover-opacity"> HBCU Tech Journeys</a></div>
-
-            <!-- End page content -->
         </div>
-        <script src="assets/js/script.js"></script>
+
+        <!-- Third Community Grid -->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom card">
+                <img src="assets/images/image8.jpg" alt="Software Engineering" class="w3-hover-opacity image">
+                <div class="w3-container w3-white">
+                    <p style="color: blue;"><b>Software Engineering</b></p>
+                    <p class="title"><b>All about Software Engineering</b></p>
+                    <p>
+                        Want to here from your peers in Software Engineering, what to network and connect with real
+                        world Software Engineer.
+                        We welcome you onboard!
+                    </p>
+                    <p><button class="button">Join Group</button></p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom card">
+                <img src="assets/images/image5.jpg" alt="Web Development" class="w3-hover-opacity image">
+                <div class="w3-container w3-white">
+                    <p style="color: blue;"><b>Web Development</b></p>
+                    <p class="title"><b>All about Web Development</b></p>
+                    <p>
+                        Collaborate, Ideate, and network with your peers in web Development.
+                        Collaborate, Ideate, and network with your peers in web Development. 
+                        Collaborate, Ideate, and network with your peers in web Development.
+                    </p>
+                    <p><button class="button">Join Group</button></p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom card">
+                <img src="assets/images/image9.jpg" alt="Premed Students" class="w3-hover-opacity image">
+                <div class="w3-container w3-white">
+                    <p style="color: blue;"><b>Premed Students</b></p>
+                    <p class="title"><b>Journey into medical school.</b></p>
+                    <p>
+                        What can you do with your premed degree - here from your fellow friends and peers on how
+                        they
+                        overcame great challenges to be where thet are now!
+                    </p>
+                    <p><button class="button">Join Group</button></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="w3-container w3-padding-32 w3-dark-grey">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <img src="assets/images/techlogo.png" alt="HBCU Tech Journeys" style="height: 50px; width: 180px;">
+                    <ul>
+                        <li>
+                            <a href="#about-us"> About Us</a>
+                        </li>
+                        <li>
+                            <a href="#schools"> Schools </a>
+                        </li>
+                        <li>
+                            <a href="#companies"> Companies</a>
+                        </li>
+                        <li>
+                            <a href="#contac-us"> Contact Us</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <div class="w3-third">
+                    <h3>Resources</h3>
+                    <ul class="w3-ul w3-hoverable">
+                        <li class="w3-padding-16">
+                            <a href="#help"> Help</a>
+                        </li>
+                        <li class="w3-padding-16">
+                            <a href="#design_guide"> Journey Maps Design Guide</a>
+                        </li>
+                        <li>
+                            <a href="#tips">Tips</a>
+                        </li>
+                        <li>
+                            <a href="#faq"> FAQs</a>
+                        </li>
+
+                        <div class="w3-panel w3-large">
+                            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                            <i class="fa fa-instagram w3-hover-opacity"></i>
+                            <i class="fa fa-snapchat w3-hover-opacity"></i>
+                            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                            <i class="fa fa-twitter w3-hover-opacity"></i>
+                            <i class="fa fa-linkedin w3-hover-opacity"></i>
+                        </div>
+
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+                    <h3>Popular Tags</h3>
+                    <p>
+                        <span class="w3-tag w3-black w3-margin-bottom">HBCUs</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">College life</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Work Life Balance</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Starting a Career In Tech</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Networking</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Motivation</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Quantum Computing</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Computer Science</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Engineering</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tech Careers</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">TED Talks</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Diversity & Inclusion in the Workplace</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">National Society of Black Engineers</span>
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+
+        <div class="w3-black w3-center w3-padding-24"> 
+            <p>
+                Copyright 2021. All Rights Reserved.
+            </p>
+            <p>Powered by <a href="index.html" title="W3.CSS" target="_blank" class="w3-hover-opacity"> HBCU Tech Journeys</a></p>
+        </div>
+        
+        <!-- End page content -->
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
