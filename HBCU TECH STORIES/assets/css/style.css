@@ -4,11 +4,18 @@
     --black: #000000;
 } */
 
+body.signout{
+  margin: 0;
+  text-align: center;  /*centers everuthing inside that doesnt have a width set*/
+  font-family: 'Montserrat';
+  /* color: #40514E; */
+}
+
 #mySidebar{
   background-color: #E8F6EF;
   font-family: "Montserrat-Black";
   line-height: 1.5;
-  padding: 0 10px;
+  padding: 15px 10px;
   color: grey;
 
   /* text-align: left; */
@@ -50,24 +57,16 @@
   /* background-color: #E8F6EF; */
 }
 
-* {
+/* * {
     color: var(--fontColor);
     font-family: helvetica;
-}
+} */
 
 p{
-  font-family: Montserrat;
+  font-family: "Montserrat-Bold";
   text-align: center;
 }
 
-
-/* body {
-background: green;
-} */
-
-/* body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Raleway", sans-serif
-    } */
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -130,16 +129,16 @@ background: green;
     color: grey;
 }
 
-.button {
+.button-signout {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 8px;
+    /* padding: 2px; */
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 15%;
 }
 
 .button:hover {
@@ -148,13 +147,45 @@ background: green;
 
 /* Image class */
 .image {
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 180px;
     width: 60%;
     padding: 5% 0;
     margin-left: 20%;
 }
 
+/* the sign out sheet */
+.signout-top-container{
+  /*margin: 0;*/
+  background-color: #E8F6EF;
+  /* position: relative; */
+  padding-top: 80px;
+  margin: 0 auto;
+
+}
+
+.bottom_cloud{
+  position: absolute;
+  left : 150px;
+  top: 25px;
+}
+.top_cloud{
+  position: absolute;
+  right: 150px;
+  top: 25px;
+}
+
+.mountain{
+  width: 50%;
+  height: 30%;
+}
+
+h1.signout-h1{
+  margin: 3px auto 20px auto; /*top left, bottom right*/
+  font-family: 'Sacramento', cursive;
+  font-size: 300%;
+  color: #66BFBF;
+}
 
 
 /* .description {
