@@ -65,8 +65,14 @@ body.signout{
 p{
   font-family: "Montserrat-Bold";
   text-align: center;
+  /* white-space: nowrap;
+  text-overflow: ellipsis ellipsis; */
 }
 
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -108,6 +114,19 @@ p{
       padding: 15% 0;
       text-align: center;
     }
+
+    .cancelbtn, .signupbtn {
+     width: 100%;
+    }
+
+    .bottom_cloud_1, .bottom_cloud_2 {
+      display: none;
+    }
+}
+
+.cancelbtn, .signupbtn {
+  /* float: left; */
+  width: 18%;
 }
 
 
@@ -158,8 +177,17 @@ p{
 .signout-top-container{
   /*margin: 0;*/
   background-color: #E8F6EF;
+  position: relative;
+  padding: 137px 0;
+  margin: 0 auto;
+
+}
+
+.signup-container{
+  /*margin: 0;*/
+  background-color: #E8F6EF;
   /* position: relative; */
-  padding-top: 80px;
+  padding-top: 65px;
   margin: 0 auto;
 
 }
@@ -185,6 +213,22 @@ h1.signout-h1{
   font-family: 'Sacramento', cursive;
   font-size: 300%;
   color: #66BFBF;
+}
+
+/* sign up page */
+
+.bottom_cloud_1 {
+  position: absolute;
+  right: 150px;
+  bottom: 15px;
+  transform: rotate(180deg)
+}
+
+.bottom_cloud_2 {
+  position: absolute;
+  left: 150px;
+  bottom: 15px;
+  transform: rotate(180deg)
 }
 
 
