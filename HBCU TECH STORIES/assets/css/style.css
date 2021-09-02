@@ -15,6 +15,7 @@ h1{
   color : #37A;
 }
 
+
 .dropcat {
   display: inline-block;
 
@@ -43,6 +44,17 @@ h1{
   .dropcat:hover .dropdown-content {
     display: block;
 }
+
+/* .active:hover{
+  /* background-color: #666;
+  color: Blue;
+}
+.active.active{
+  color: black;
+} */
+/* a:active{
+  background-color: blue;
+} */
 
 
 #mySidebar{
@@ -271,3 +283,110 @@ h1.signout-h1{
     width: 300px;
     height: 200px;
 } */
+
+.w3-bar-item {
+  /* display: block; */
+}
+
+.w3-bar-item.w3-active,
+.w3-bar-item:hover {
+  background-color: #ccc;
+}
+
+footer a {
+  color: #38A;
+}
+
+footer .blog-posts-widget li {
+  display: flex;
+  align-items: center;
+}
+
+footer .blog-posts-widget li img,
+footer .blog-posts-widget li a {
+  display: flex;
+}
+
+footer .blog-posts-widget li a {
+  color: #ffffff;
+}
+
+footer .blog-posts-widget li a:hover {
+  color: #38A;
+}
+
+footer .popular-tags a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.25s ease-in;
+}
+
+footer .popular-tags a.w3-active {
+  font-size: 15px;
+}
+
+footer .popular-tags a.w3-active,
+footer .popular-tags .w3-active,
+footer .popular-tags a:hover {
+  text-decoration: none;
+  background-color: #38A;
+  color: #fff;
+}
+
+.grid-layout .image {
+  max-width: 100%;
+  min-height: 260px;
+  height: 260px;
+}
+
+@media(min-width: 768px) {
+  .grid-layout .image {
+    height: 220px;
+  }
+}
+
+.w3-sidebar .w3-container {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.w3-sidebar .w3-bar-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.w3-nav-tabs .w3-button {
+  color: #000;
+  background-color: #fff;
+}
+
+.w3-nav-tabs {
+
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+}
+
+.w3-nav-tabs * {
+  margin-right: 3px !important;
+}
+.w3-nav-tabs a {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.w3-nav-tabs .w3-button:hover a,
+.w3-nav-tabs a:hover {
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+}
+
+.w3-nav-tabs .w3-button.w3-active,
+.w3-nav-tabs .w3-button.w3-active a {
+  background-color: #ccc;
+}
